@@ -656,7 +656,7 @@ class NostoTaggingProduct extends NostoTaggingModel implements NostoProductInter
 	 */
 	public function setTag2(array $tags)
 	{
-		$this->tags['tag1'] = array();
+		$this->tags['tag2'] = array();
 		foreach ($tags as $tag)
 			$this->addTag2($tag);
 	}
@@ -695,7 +695,7 @@ class NostoTaggingProduct extends NostoTaggingModel implements NostoProductInter
 	 */
 	public function setTag3(array $tags)
 	{
-		$this->tags['tag1'] = array();
+		$this->tags['tag3'] = array();
 		foreach ($tags as $tag)
 			$this->addTag3($tag);
 	}
