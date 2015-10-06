@@ -9,6 +9,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Option to use direct include of Nosto script
 - Events after data models are loaded to provide data overrides
 
+## [2.4.3]
+### Changed
+- Module admin page layout
+
 ## [2.4.2]
 ### Fixed
 - Issue with missing "addCss" method in hook "displayBackOfficeHeader", when controller in context inherits
@@ -162,7 +166,8 @@ from "AdminTab" instead of "AdminController" in PS 1.5+
 - Initial release
 
 
-[unreleased]: https://github.com/nosto/nostotagging/compare/2.4.2...develop
+[unreleased]: https://github.com/nosto/nostotagging/compare/2.4.3...develop
+[2.4.3]: https://github.com/nosto/nostotagging/compare/2.4.2...2.4.3
 [2.4.2]: https://github.com/nosto/nostotagging/compare/2.4.1...2.4.2
 [2.4.1]: https://github.com/nosto/nostotagging/compare/2.4.0...2.4.1
 [2.4.0]: https://github.com/nosto/nostotagging/compare/0.4.1...2.4.0
